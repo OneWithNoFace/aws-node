@@ -6,7 +6,7 @@ var app = express();
 var port= 9000;
 
 app.get("/", (req,res) => {
-    res.send("Mini Project 3!");
+    res.send("<h1> Mini Project 3! </h1> <h2> Guided by : Prof Vivek Prasad </h2> <h2> 15bce078: Ronak Panchal </h2> <h2> 15bce086: Harsh Patel</h2>");
 }).listen(port, (err) =>{
     if(err){
         console.log("Server not started");
