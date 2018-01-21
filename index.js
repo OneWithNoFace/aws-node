@@ -7,4 +7,10 @@ var port= 9000;
 
 app.get("/", (req,res) => {
     res.send("Mini Project 3!");
-}).listen(port);
+}).listen(port, (err) =>{
+    if(err){
+        console.log("Server not started");
+    }else{
+        console.log("server Started");
+    }
+});
