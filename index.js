@@ -3,7 +3,7 @@ var http = require("http");
 
 var app = express();
 
-var port= 9000;
+var port= http.port;
 
 app.get("/", (req,res) => {
     res.send("<h1> Mini Project 3! </h1> <h2> Guided by : Prof Vivek Prasad </h2> <h2> 15bce078: Ronak Panchal </h2> <h2> 15bce086: Harsh Patel</h2>");
